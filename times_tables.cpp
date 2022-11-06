@@ -6,7 +6,7 @@ string multiply(int num){
 	string ans;
 	while (multiplier <= 10){
 		ans += to_string(num)+" x "+ to_string(multiplier) + " = " + to_string(num * multiplier) + "\n";
-		++ multiplier;
+		++multiplier;
 	}
 	return ans;
 }
